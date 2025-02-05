@@ -30,7 +30,7 @@ bot.addCommand(
 │ Time : ${time}
 │ Day : ${date.toLocaleString('en', { weekday: 'long' })}
 │ Date : ${date.toLocaleDateString('hi')}
-│ Version : ${ctx.VERSION}
+│ الاصدار : ${ctx.VERSION}
 │ Plugins : ${ctx.pluginsCount}
 │ Ram : ${getRam()}
 │ Uptime : ${getUptime('t')}
